@@ -30,7 +30,7 @@ emp_no (Foreign Key to employees.emp_no),
 dept_no (Foreign Key to departments.dept_no), 
 PRIMARY KEY (emp_no, dept_no) (Composite Key), 
 
-dept_manager
+dept_manager: 
 dept_no (Foreign Key to departments.dept_no), 
 emp_no (Foreign Key to employees.emp_no), 
 PRIMARY KEY (dept_no, emp_no) (Composite Key), 
